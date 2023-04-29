@@ -22,7 +22,7 @@ public class StringConcept {
 		String output = "";
 		String[] str = s.split("");
 		for (String s1 : str) {
-			for (int i = s1.length()-1; i<=0; i--) {
+			for (int i = s1.length()-1; i<=1; i--) {
 				char c = s1.charAt(i);
 				output = output + c;
 			}

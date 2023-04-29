@@ -16,6 +16,7 @@ public class Palindrome {
 		
 		for(int i=0 ; i< length/2 ; i++) {
 			if(str.charAt(i)!= str.charAt(length-i-1)) {
+				
 				System.out.println(str +" is not plaindrome");
 				return;
 			}

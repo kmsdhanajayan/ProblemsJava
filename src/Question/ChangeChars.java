@@ -11,8 +11,8 @@ public class ChangeChars {
 	 String s2 ="testing";
 	 int length = s1.length();
 	 int length2 = s2.length();
-	 int lmin = Math.min(s1, s2);
-	 System.out.println(lmin);
+	 int lmin1 = Math.min(s1, s2);
+	 System.out.println(lmin1);
 
 	 if(s1.equals(s2)) {
 		 
